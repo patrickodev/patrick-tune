@@ -14,7 +14,7 @@ function Footer() {
       <AiFillLinkedin size={30} className="iconS" />
     </a>  
     </div>
-    <p>Ilutrações de <a className='linkRef' href="https://storyset.com/web">Web illustrations by Storyset</a></p>
+    <p>Ilutrações de <a className='linkRef' href="https://storyset.com/web" target="_blank" rel="noopener noreferrer">Web illustrations by Storyset</a></p>
   </div>
   );
 }
