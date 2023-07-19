@@ -14,7 +14,7 @@ function Header() {
       <img onClick={handleNomeClick} className="Logo" src={ disco } alt="Logo" />
       <Link onClick={handleNomeClick}><h1>PatrickTunes</h1></Link>
       <div className='PerfilInfo'>
-        <Link onClick={handleNomeClick}><BiLogIn className='Navegation' size={30} /></Link>
+        <Link to="/"><BiLogIn className='Navegation' size={30} /></Link>
       </div>
     </div>
   );
